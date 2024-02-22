@@ -30,8 +30,8 @@ For the ith sample, Squared Logarithmic Error is calculated as SLE = (log(predic
 ```python
 # Fill in your user name and key from creating the kaggle account and API token file
 import json
-kaggle_username = "tanui2019"
-kaggle_key = "bd1772ca85673cd91912c0897c40d703"
+kaggle_username = "your-user-name"
+kaggle_key = "your-key"
 
 # Save API token the kaggle.json file
 with open("C:/Users/HP/.kaggle/kaggle.json", "w") as f:
@@ -393,7 +393,7 @@ ts.trend_visualizations(sales)
 
 
     
-![png](output_27_0.png)
+![png](https://github.com/brian-kipkoech-tanui/Electricity-timeseries-analysis/blob/master/codeoutputs/output_27_0.png)
     
 
 
@@ -409,7 +409,7 @@ plt.show()
 
 
     
-![png](output_28_0.png)
+![png](https://github.com/brian-kipkoech-tanui/Electricity-timeseries-analysis/blob/master/codeoutputs/output_28_0.png)
     
 
 
@@ -420,19 +420,19 @@ ts.decomposition_plot(sales)
 
 
     
-![png](output_29_0.png)
+![png](https://github.com/brian-kipkoech-tanui/Electricity-timeseries-analysis/blob/master/codeoutputs/output_29_0.png)
     
 
 
 
     
-![png](output_29_1.png)
+![png](https://github.com/brian-kipkoech-tanui/Electricity-timeseries-analysis/blob/master/codeoutputs/output_29_1.png)
     
 
 
 
     
-![png](output_29_2.png)
+![png](https://github.com/brian-kipkoech-tanui/Electricity-timeseries-analysis/blob/master/codeoutputs/output_29_2.png)
     
 
 
@@ -443,13 +443,13 @@ ts.correlation_function(sales, lags=100)
 
 
     
-![png](output_30_0.png)
+![png](https://github.com/brian-kipkoech-tanui/Electricity-timeseries-analysis/blob/master/codeoutputs/output_30_0.png)
     
 
 
 
     
-![png](output_30_1.png)
+![png](https://github.com/brian-kipkoech-tanui/Electricity-timeseries-analysis/blob/master/codeoutputs/output_30_1.png)
     
 
 
@@ -520,7 +520,7 @@ residuals = ts.best_model(train, test, order=(2, 1, 1),
 
 
     
-![png](output_34_1.png)
+![png](https://github.com/brian-kipkoech-tanui/Electricity-timeseries-analysis/blob/master/codeoutputs/output_34_1.png)
     
 
 
@@ -547,7 +547,7 @@ residuals = ts.best_model(train, test, order=(2, 1, 1),
 
 
     
-![png](output_34_3.png)
+![png](https://github.com/brian-kipkoech-tanui/Electricity-timeseries-analysis/blob/master/codeoutputs/output_34_3.png)
     
 
 
@@ -560,7 +560,7 @@ predictions = ts.forecasts(sales["sales"],
 
 
     
-![png](output_35_0.png)
+![png](https://github.com/brian-kipkoech-tanui/Electricity-timeseries-analysis/blob/master/codeoutputs/output_35_0.png)
     
 
 
@@ -587,7 +587,7 @@ train_csv["family"].value_counts().plot(kind='bar', figsize=(16,8))
 
 
     
-![png](output_37_1.png)
+![png](https://github.com/brian-kipkoech-tanui/Electricity-timeseries-analysis/blob/master/codeoutputs/output_37_1.png)
     
 
 
@@ -608,7 +608,7 @@ train_csv.iloc[:,1:].hist(figsize=(16,8))
 
 
     
-![png](output_38_1.png)
+![png](./codeoutputs/output_38_1.png)
     
 
 
@@ -796,6 +796,6 @@ plt.show()
 
 
     
-![png](output_52_0.png)
+![png](./codeoutputs/output_52_0.png)
     
 
